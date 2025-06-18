@@ -128,7 +128,7 @@ function App() {
 
       case 'clues':
         return (
-         <ClueScreen
+          <ClueScreen
             clue={clues[currentClueIndex]}
             onYes={() => handleClueResponse(true)}
             onNo={() => handleClueResponse(false)}

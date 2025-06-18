@@ -1,5 +1,5 @@
 const matchClueToPlayer = async (clues, players) => {
-  const response = await fetch("http://localhost:5000/api/clue-match", {
+  const response = await fetch("https://cricguess-dg3w.onrender.com", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
