@@ -1,4 +1,4 @@
-const API_BASE = "https://cricguess-dg3w.onrender.com/api/v1";
+const API_BASE = "https://cricguess-dg3w.onrender.com";
 
 export const fetchPlayerClues = async (answersArray) => {
   try {
