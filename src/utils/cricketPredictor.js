@@ -2,7 +2,7 @@ const API_BASE = "https://cricguess-dg3w.onrender.com/";
 
 export const fetchPlayerClues = async (answersArray) => {
   try {
-    const response = await fetch(`${API_BASE}/predict`, {
+    const response = await fetch(`${API_BASE}/api/predict`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -33,7 +33,7 @@ export const fetchPlayerClues = async (answersArray) => {
 };
 
 export const matchClueToPlayer = async (clues, players) => {
-  const response = await fetch(`${API_BASE}/clue-match`, {
+  const response = await fetch(`${API_BASE}/api/clue-match`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
